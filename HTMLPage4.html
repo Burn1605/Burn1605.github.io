@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="StyleSheet1.css">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body class="apply">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Job Application</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h2>Job Application</h2>
+            <form onsubmit="handleSubmit(event)">
+                <label for="name">Full Name</label>
+                <input class="thing" type="text" id="name" name="name" required />
+
+                <label for="email">Email Address</label>
+                <input class="thing" type="email" id="email" name="email" required />
+
+                <label for="position">Position</label>
+                <input class="thing" type="text" id="position" name="position" required />
+
+                <label for="cover">Cover Letter</label>
+                <textarea class="thing" id="cover" name="cover" required></textarea>
+
+                <button type="submit" class="submit-btn">Submit Application</button>
+            </form>
+        </div>
+
+        <script>
+    function handleSubmit(event) {
+      event.preventDefault();
+        window.location.href ="HTMLPage5.html"; // Replace with your URL
+    }
+        </script>
+  
+
+</body>
+<footer>
+    <a href="HTMLPage1.html" class="myButton">Contact</a>
+    <a href="HTMLpage2.html" class="myButton">About</a>
+    <a href="HTMLpage3.html" class="myButton">Shopping</a>
+    <a href="HTMLPage4.html" class="myButton">Apply</a>
+    <a href="HTMLPage5.html" class="myButton">Engineer</a>
+    <a href="THEPAGE.html" class="myButton">Home</a>
+    <img src="https://i.pinimg.com/736x/b5/ed/91/b5ed9190a800f08d4f12e3994262bfc0.jpg" width="150px" align="right" />
+</footer>
+
+
+
+
+
+
+
+
+
+
+</html>
