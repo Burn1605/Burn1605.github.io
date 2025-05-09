@@ -17,7 +17,7 @@ h1 {
     margin: 0;
 }
 
-
+/* homepage */
 
 .new_top_home_web * {
     font-family: Nunito, sans-serif;
@@ -435,8 +435,7 @@ h1 {
 }
 
 
-
-
+/* Button Function */
 .myButton {
     background-color: #599bb3;
     border-radius: 28px;
@@ -461,7 +460,7 @@ h1 {
 
 
 
-
+/*contact page*/
 .contact_us * {
     font-family: Nunito, sans-serif;
 }
@@ -704,7 +703,7 @@ h1 {
 
 
 
-
+/* About us Page */
 * {
     font-family: Nunito, sans-serif;
 }
@@ -1012,8 +1011,7 @@ h1 {
         width: 100%;
     }
 }
-
-
+/* Shopping Page */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -1178,3 +1176,116 @@ footer {
 #cart-total{
     color:
 }
+
+
+/*apply page*/
+.container {
+    background: #6f9fbd;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin:auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+    color:black;
+}
+
+.submit-btn {
+    margin-top: 1.5rem;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    .submit-btn:hover {
+        background-color: #0056b3;
+    }
+
+.apply {
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/012/198/408/large/liam-moffitt-arena-staple-a80035.jpg?1533571776);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+/*ENGINEER Page*/
+.epage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: url(https://media.tenor.com/87YnhPYtH0AAAAAj/engineer-tf2.gif) center repeat, url(https://static1.thegamerimages.com/wordpress/wp-content/uploads/2022/03/Team-Fortress-2-Steel.jpg) left top repeat;
+}
+eimg {
+    background-image: url(https://media.tenor.com/87YnhPYtH0AAAAAj/engineer-tf2.gif);
+    background-repeat:repeat;
+}
+.efooter {
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+.eh
+
+
+
+    .container {
+      text-align: center;
+    }
+
+    .center-image {
+      width: 200px;
+      height: auto;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+
+    .center-image:hover {
+      transform: scale(1.05);
+    }
+
+    .description {
+      margin-top: 20px;
+      font-size: 18px;
+      color: #333;
+      font-size:large;
+    }
