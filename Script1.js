@@ -33,7 +33,7 @@ document.getElementById('close-cart').addEventListener('click', () => {
 
 document.getElementById('checkout-final').addEventListener('click', () => {
     // Redirect to checkout page
-    window.location.href = '/checkout.html';
+    window.location.href = 'HTMLPage5.html';
 });
 
 function renderCart() {
