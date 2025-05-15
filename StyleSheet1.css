@@ -1258,12 +1258,12 @@ eimg {
     background-repeat:repeat;
 }
 .efooter {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    bottom: 20px;
-    transform: translate(-50%, -50%);
-    margin: 0 auto;
+    position: fixed;
+    bottom: 0px;
+    width: 400px;
+    text-align: center;
+    align-content: center;
+    width: 100%;
 }
 .eh
 
